@@ -1,0 +1,186 @@
+h1 {
+    text-align: center;
+}
+
+
+/* Large devices only */
+@media (min-width: 992px) { 
+    #chicken {
+    
+        position:relative;
+        float:left; 
+        background-color: grey;
+        border: 2px solid black;
+        margin: 10px;
+        width:30.32%;
+        
+    }
+    
+    #beef {
+        
+        position:relative;
+        float:left;
+        background-color: grey;
+        border: 2px solid black;
+        margin: 10px;
+        width:30.33%;
+    }
+    
+    #pork {
+        
+        position:relative;
+        float:left;
+        background-color: grey;
+        border: 2px solid black;
+        margin: 10px;
+        width:30.33%;
+
+    }
+    span {
+        position: relative;
+        bottom: 89px;
+    }
+    
+    .cclass {
+        background-color: red;
+        float: right;
+        border: 1px solid black;
+        top:-106px;
+        
+    }
+    
+    .bclass {
+        background-color: blue;
+        float: right;
+        border: 1px solid black;
+        top: -106px;
+    }
+    
+    .pclass {
+        background-color: green;
+        float: right;
+        border: 1px solid black;
+    }
+}
+
+/* Medium devices only */
+@media (min-width: 768px) and (max-width: 992px) {
+    #chicken {
+    
+        position:relative;
+        float:left;
+        background-color: grey;
+        border: 2px solid black;
+        margin: 10px;
+        width:44%;
+    }
+    
+    #beef {
+        
+        position:relative;
+        float:left;
+        background-color: grey;
+        border: 2px solid black;
+        margin: 10px;
+        width:44%;
+    }
+    
+    #pork {
+        
+        position:relative;
+        float:left;
+        background-color: grey;
+        border: 2px solid black;
+        margin: 10px;
+        width:81%;
+    }
+    span {
+        position: relative;
+        bottom: 89px;
+    }
+    
+    .cclass {
+        background-color: red;
+        float: right;
+        border: 1px solid black;
+        top: -108px;
+        
+    }
+    
+    .bclass {
+        background-color: blue;
+        float: right;
+        border: 1px solid black;
+        top: -125px;
+    }
+    
+    .pclass {
+        background-color: green;
+        float: right;
+        border: 1px solid black;
+        top: -69px;
+    }
+}
+
+/* Small devices only */
+@media (max-width: 768px) {
+    #chicken {
+    
+        position:relative;
+        float:left;
+        background-color: grey;
+        border: 2px solid black;
+        margin: 10px;
+        width:80%;
+    }
+    
+    #beef {
+        
+        position:relative;
+        float:left;
+        background-color: grey;
+        border: 2px solid black;
+        margin: 10px;
+        width:80%;
+    }
+    
+    #pork {
+        
+        position:relative;
+        float:left;
+        background-color: grey;
+        border: 2px solid black;
+        margin: 10px;
+        width:80%;
+    }
+    span {
+        position: relative;
+        bottom: 89px;
+    }
+    
+    .cclass {
+        background-color: red;
+        float: right;
+        border: 1px solid black;
+        
+    }
+    
+    .bclass {
+        background-color: blue;
+        float: right;
+        border: 1px solid black;
+        top: -90px;
+    }
+    
+    .pclass {
+        background-color: green;
+        float: right;
+        border: 1px solid black;
+    }
+    
+}
+
+
+
+
+
